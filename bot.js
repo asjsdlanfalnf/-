@@ -36,7 +36,7 @@ s4d.client.on('raw', async (packet) => {
     s4d.client.emit(packet.t, guild, channel, message, member, packet.d.emoji.name);
   }
 });
-s4d.client.login('ODU3NDczODAyMTI3NTQwMjI2.YNQGtQ.JwJ1JVQYmgeimKBhzL7tz4NKDwc').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+s4d.client.login('ODU3NDczODAyMTI3NTQwMjI2.YNQGtQ.Q2L7wEBbBfJ-H5uOYLsZRhT1AL0').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('ready', async () => {
   s4d.client.user.setActivity(String('Watching You'));
