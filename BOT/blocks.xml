@@ -1,0 +1,132 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="189" y="-676">
+    <value name="TOKEN">
+      <block type="text" id="a7JxIIyK[Yr~TPL^-{W:">
+        <field name="TEXT">ODU3NDczODAyMTI3NTQwMjI2.YNQGtQ.JwJ1JVQYmgeimKBhzL7tz4NKDwc</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_connected" id="aJ2[i*Kf3#.bmAdoMmf~" x="40" y="-537">
+    <statement name="STATEMENTS">
+      <block type="s4d_set_bot_game" id="GvdCccQbTUnj1Y)-b2Wx">
+        <value name="GAME">
+          <block type="text" id="3{c.HZy0P1BZc0v;Ze_N">
+            <field name="TEXT">Watching You</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="Qx+aIDM=_,mj^tl$vGmW" x="-124" y="99">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="Cr$f.P2*Nq2Dl}?D!r`(">
+        <value name="IF0">
+          <block type="logic_compare" id="oq-Tf{oSnv,],{N*FSF|">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="pyFMNvR6J#o6Ky/UA~]f"></block>
+            </value>
+            <value name="B">
+              <block type="text" id=";[??XKp36YJf2U}j2_}e">
+                <field name="TEXT">Hello</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="wgo^7yFoMz,K{AaMl6L)">
+            <value name="CONTENT">
+              <block type="text" id="N-4C!JnJCe,s$75i%8Ce">
+                <field name="TEXT">Hi!!!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="%4F=|`*Lgm~$5+OJZsc{" x="503" y="125">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="e)y-y-ax/:|{rb8=X+xx">
+        <value name="IF0">
+          <block type="logic_compare" id="D3a%.7TBY}U{`QWGwGsw">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="i,eqna-6-#t1eT-:0PT#"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="X-:mM2@t,!Q`l1A[^}(A">
+                <field name="TEXT">hello</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="wCGNA%YEK^w+XN4poOe!">
+            <value name="CONTENT">
+              <shadow type="text" id="MJOK.H^+gcm}x3hL#pVj">
+                <field name="TEXT">Hi!!!</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="X3fqd(%kFa//0:Whwu0x" x="546" y="466">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="8vQNC=qBg9DoCLP`Jfid">
+        <value name="IF0">
+          <block type="logic_compare" id="UB?.ECXDMx|d~Tx`4%yh">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id=")S,ZZHkFvEH}#m2cov*%"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="2qz#},pO9(drk-dS5yO~">
+                <field name="TEXT">hi</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="8j(jJ_ic@SJ3|7:[`jtb">
+            <value name="CONTENT">
+              <shadow type="text" id=",gAS_Hu49})*SyEQF@+p">
+                <field name="TEXT">Hello!!!</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="9C}y0{91E){2Rj98k^mU" x="24" y="511">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="S`:3|-a+Zl3kI4MfgSHU">
+        <value name="IF0">
+          <block type="logic_compare" id="eWtAz[@^EtpUQ)FW..Mx">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="ZFW6vh~s=]ZOM,BMj6R."></block>
+            </value>
+            <value name="B">
+              <block type="text" id="]1dXa?)oaHX(0Lmo`wj0">
+                <field name="TEXT">Hi</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="t_y6R(.Ol?*HU^@.w1Al">
+            <value name="CONTENT">
+              <shadow type="text" id="%]T2pEElQ)R.WFP2WE2^">
+                <field name="TEXT">Hello!!!</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
